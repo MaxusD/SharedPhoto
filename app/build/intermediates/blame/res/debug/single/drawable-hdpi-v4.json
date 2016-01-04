@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_share_logo.png",
+        "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\drawable-hdpi\\ic_share_logo.png"
+    },
+    {
+        "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cursor.xml",
+        "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\drawable-hdpi\\cursor.xml"
+    },
+    {
+        "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\androidbegin.gif",
+        "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\drawable-hdpi\\androidbegin.gif"
+    },
+    {
+        "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\border_edittext.xml",
+        "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\drawable-hdpi\\border_edittext.xml"
+    },
+    {
+        "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share.png",
+        "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\drawable-hdpi\\share.png"
+    }
+]
