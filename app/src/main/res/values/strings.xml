@@ -9,6 +9,11 @@
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="cancel">Cancel</string>
+    <string name="title_activity_list_view_friends">ListViewFriendsActivity</string>
+    <string name="title_activity_single_item_view">SingleItemViewActivity</string>
+    <string name="first_name_label">"First Name : "</string>
+    <string name="country_label">"Country : "</string>
+    <string name="second_name_label">"Second Name : "</string>
 
 
 </resources>

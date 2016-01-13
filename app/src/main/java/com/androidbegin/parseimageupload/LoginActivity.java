@@ -44,7 +44,7 @@ public class LoginActivity extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.login_button:
-                Intent intent = new Intent(this, MainActivity.class);
+                Intent intent = new Intent(this, ListViewFriendsActivity.class);
                 startActivity(intent);
                 break;
             default:
