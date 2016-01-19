@@ -58,7 +58,8 @@
         android:contentDescription="@string/app_name"
         android:layout_below="@+id/appName_textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp" />
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="-15dp"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -81,10 +82,20 @@
 
 
     <Button
+        android:background="@drawable/button"
+        android:layout_marginTop="15dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="@string/login_button"
         android:id="@+id/login_button"
         android:layout_below="@+id/password_editText" />
+
+    <Button
+        android:background="@drawable/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:id="@+id/sign_up_button"
+        android:layout_below="@+id/login_button" />
 
 </RelativeLayout>

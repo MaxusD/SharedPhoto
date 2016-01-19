@@ -1,37 +1,48 @@
 package com.androidbegin.parseimageupload;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
-import android.view.Menu;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Toast;
 
-import com.loopj.android.http.RequestParams;
-import com.parse.ParseFile;
-import com.parse.ParseObject;
-
-import java.io.ByteArrayOutputStream;
+import com.parse.ParseAnonymousUtils;
+import com.parse.ParseUser;
 
 public class MainActivity extends Activity {
-	Button button;
+	/*Button button;
 	ProgressDialog prgDialog;
 	private static int RESULT_LOAD_IMG = 1;
 	RequestParams params = new RequestParams();
-	String imgPath, fileName;
+	String imgPath, fileName;*/
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		// Get the view from main.xml
+
+		// Determine whether the current user is an anonymous user
+		if (ParseAnonymousUtils.isLinked(ParseUser.getCurrentUser())) {
+			// If user is anonymous, send the user to MainActivity.class
+			Intent intent = new Intent(MainActivity.this,
+					LoginActivity.class);
+			startActivity(intent);
+			finish();
+		} else {
+			// If current user is NOT anonymous user
+			// Get current user data from Parse.com
+			ParseUser currentUser = ParseUser.getCurrentUser();
+			if (currentUser != null) {
+				// Send logged in users to Welcome.class
+				Intent intent = new Intent(MainActivity.this, ListViewFriendsActivity.class);
+				startActivity(intent);
+				finish();
+			} else {
+				// Send user to MainActivity.class
+				Intent intent = new Intent(MainActivity.this,
+						MainActivity.class);
+				startActivity(intent);
+				finish();
+			}
+		}
+		/*// Get the view from main.xml
 		setContentView(R.layout.main);
 
 		// Locate the button in main.xml
@@ -72,12 +83,12 @@ public class MainActivity extends Activity {
 
 				// Show a simple toast message
 				Toast.makeText(MainActivity.this, "Image Uploaded",
-						Toast.LENGTH_SHORT).show();
-			}
-		});
+						Toast.LENGTH_SHORT).show();*/
+	/*		}
+		});*/
 	}
 
-	public void loadImagefromGallery(View view) {
+	/*public void loadImagefromGallery(View view) {
 		// Create intent to Open Image applications like Gallery, Google Photos
 		Intent galleryIntent = new Intent(Intent.ACTION_PICK,
 				android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
@@ -125,13 +136,13 @@ public class MainActivity extends Activity {
 					.show();
 		}
 
-	}
+	}*/
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
+	//@Override
+	/*public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
-	}
+	}*/
 
 }

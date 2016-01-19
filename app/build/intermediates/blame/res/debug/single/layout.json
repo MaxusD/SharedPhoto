@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\layout\\main.xml"
-    },
-    {
         "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
         "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -22,5 +22,9 @@
     {
         "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_view_friends.xml",
         "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\layout\\activity_list_view_friends.xml"
+    },
+    {
+        "merged": "D:\\Android\\projects\\ParseImageUpload\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_signup.xml",
+        "source": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\layout\\activity_login_signup.xml"
     }
 ]

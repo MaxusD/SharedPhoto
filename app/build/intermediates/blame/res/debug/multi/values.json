@@ -55,8 +55,8 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 272,
-                    "endColumn": 41,
-                    "endOffset": 309
+                    "endColumn": 54,
+                    "endOffset": 322
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -66,28 +66,21 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 314,
-                    "endColumn": 54,
-                    "endOffset": 364
+                    "startOffset": 327,
+                    "endColumn": 60,
+                    "endOffset": 383
                 },
                 "from": {
-                    "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 683,
-                        "endColumn": 54,
-                        "endOffset": 733
-                    }
+                    "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 369,
-                    "endColumn": 60,
-                    "endOffset": 425
+                    "startOffset": 388,
+                    "endColumn": 52,
+                    "endOffset": 436
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -97,9 +90,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 430,
-                    "endColumn": 52,
-                    "endOffset": 478
+                    "startOffset": 441,
+                    "endColumn": 42,
+                    "endOffset": 479
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -109,9 +102,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 483,
-                    "endColumn": 39,
-                    "endOffset": 518
+                    "startOffset": 484,
+                    "endColumn": 46,
+                    "endOffset": 526
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -121,9 +114,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 523,
+                    "startOffset": 531,
                     "endColumn": 45,
-                    "endOffset": 564
+                    "endOffset": 572
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -133,9 +126,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 569,
+                    "startOffset": 577,
                     "endColumn": 62,
-                    "endOffset": 627
+                    "endOffset": 635
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -145,9 +138,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 632,
-                    "endColumn": 84,
-                    "endOffset": 712
+                    "startOffset": 640,
+                    "endColumn": 43,
+                    "endOffset": 679
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -157,9 +150,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 717,
-                    "endColumn": 62,
-                    "endOffset": 775
+                    "startOffset": 684,
+                    "endColumn": 84,
+                    "endOffset": 764
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -169,9 +162,9 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 780,
-                    "endColumn": 82,
-                    "endOffset": 858
+                    "startOffset": 769,
+                    "endColumn": 62,
+                    "endOffset": 827
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -181,9 +174,28 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 863,
-                    "endColumn": 50,
-                    "endOffset": 909
+                    "startOffset": 832,
+                    "endColumn": 75,
+                    "endOffset": 903
+                },
+                "from": {
+                    "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 853,
+                        "endColumn": 75,
+                        "endOffset": 924
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 908,
+                    "endColumn": 82,
+                    "endOffset": 986
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
@@ -191,12 +203,24 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 914,
-                    "endLine": 23,
+                    "startOffset": 991,
+                    "endColumn": 50,
+                    "endOffset": 1037
+                },
+                "from": {
+                    "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1042,
+                    "endLine": 25,
                     "endColumn": 12,
-                    "endOffset": 1200
+                    "endOffset": 1328
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\styles.xml"
@@ -204,12 +228,38 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1205,
-                    "endLine": 26,
+                    "startOffset": 1333,
+                    "endLine": 28,
                     "endColumn": 12,
-                    "endOffset": 1360
+                    "endOffset": 1488
+                },
+                "from": {
+                    "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1493,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 1630
+                },
+                "from": {
+                    "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\themes.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1635,
+                    "endLine": 44,
+                    "endColumn": 12,
+                    "endOffset": 2315
                 },
                 "from": {
                     "file": "D:\\Android\\projects\\ParseImageUpload\\app\\src\\main\\res\\values\\styles.xml"
